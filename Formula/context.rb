@@ -1,26 +1,26 @@
 class Context < Formula
   desc "CLI for turning codebases into structured, AI-ready context"
   homepage "https://github.com/meesakveld/context"
-  version "1.1.4"
+  version "1.1.5"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/meesakveld/context/releases/download/v1.1.4/context_darwin_arm64.tar.gz"
-      sha256 "cbe604622dd8755154f5b398b38d98b566c5113e0d78c71cdfda81a2f75dc1f8"
+      url "https://github.com/meesakveld/context/releases/download/v1.1.5/context_darwin_arm64.tar.gz"
+      sha256 "d71b0e12c7e9ffe4ab44100086af5951db9ecc7824db3ed54ceeca6d30222b31"
     else
-      url "https://github.com/meesakveld/context/releases/download/v1.1.4/context_darwin_amd64.tar.gz"
-      sha256 "0712cdb7345ad663a170a32c207928b433f8766cc18a9f9edf7c95f40f622351"
+      url "https://github.com/meesakveld/context/releases/download/v1.1.5/context_darwin_amd64.tar.gz"
+      sha256 "c3ff1a48fca4e5226f56f2498dd5f497c97a6c2b62d48393376b0df3a22f2082"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/meesakveld/context/releases/download/v1.1.4/context_linux_arm64.tar.gz"
-      sha256 "cb3a7da914f040dfaa3e3a04f7c7c2b8bb8376c7a55eaed067db44e48c8b8f00"
+      url "https://github.com/meesakveld/context/releases/download/v1.1.5/context_linux_arm64.tar.gz"
+      sha256 "6fad6ce749aec1dedb5d0ea911e9f84fd2c0eda8152e4234390b4d15c00442d7"
     else
-      url "https://github.com/meesakveld/context/releases/download/v1.1.4/context_linux_amd64.tar.gz"
-      sha256 "76fbe660ee60a3d181c0b099a8e304d33a60f92680654a9aaae8c5a76326c374"
+      url "https://github.com/meesakveld/context/releases/download/v1.1.5/context_linux_amd64.tar.gz"
+      sha256 "46c14cc589d064936c68f85bbc7f8b50630e114f3bb85934370ccdf318f9a960"
     end
   end
 
